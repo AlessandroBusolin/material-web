@@ -13,7 +13,7 @@
   --leading-space: 0;
   --md-icon-fill: 1;
   --outline-color: transparent;
-  --outline-width: 1px;
+  --outline-width: 0;
   --trailing-space: 0;
   // LINT.ThenChange(icon-button-element.ts) keep in sync with `@cssprop` jsdoc tags
 }
@@ -75,6 +75,7 @@
   --container-height: 32px;
   --icon-size: 20px;
   --leading-space: 6px;
+  --outline-width: 1px;
   --trailing-space: 6px;
 }
 
@@ -91,6 +92,7 @@
 @mixin sm {
   --container-height: 40px;
   --leading-space: 8px;
+  --outline-width: 1px;
   --trailing-space: 8px;
 }
 
@@ -107,6 +109,7 @@
 @mixin md {
   --container-height: 56px;
   --leading-space: 16px;
+  --outline-width: 1px;
   --trailing-space: 16px;
 }
 
@@ -128,6 +131,7 @@
   --container-height: 96px;
   --icon-size: 32px;
   --leading-space: 32px;
+  --outline-width: 2px;
   --trailing-space: 32px;
 }
 
@@ -138,7 +142,6 @@
 
 @mixin lg-wide {
   --leading-space: 48px;
-  --outline-width: 2px;
   --trailing-space: 48px;
 }
 
