@@ -152,5 +152,9 @@
     &:is(.icon-btn-narrow, .icon-btn-wide) {
       padding-inline: var(--leading-space) var(--trailing-space);
     }
+
+    &:not(:disabled, .disabled) {
+      cursor: pointer;
+    }
   }
 }
